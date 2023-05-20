@@ -1,0 +1,7 @@
+.sidebarHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: xx-large;
+    font-weight: 700;
+}
