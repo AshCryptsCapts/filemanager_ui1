@@ -1,5 +1,5 @@
 .allItems {
-    height: 35rem;
+    min-height: 100vh;
     background-color: #eff3fa;
 }
 
@@ -14,7 +14,6 @@
     bottom: 19px;
     right: 14.2rem;
 }
-
 
 .tableAllItems {
     background-color: white;
@@ -54,8 +53,6 @@ tbody tr{
     justify-content: flex-start;
     align-items: center;
 }
-
-
 
 .fileImg{
     width:50px;

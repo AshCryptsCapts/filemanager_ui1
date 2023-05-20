@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 .sidebarAndPages {
   display: flex;
@@ -14,8 +14,8 @@
 
 .sidebar {
   width: 14rem;
-  height: 100vh;
-  background-color: cadetblue;
+  min-height: 100vh;
+  background-color: white;
   border-right: 1px solid rgba(0,0,0,0.15);
 }
 
