@@ -1,9 +1,7 @@
 import React, { useContext, useState } from 'react'
 
 import './filemanager.css'
-
 import Categories from './categories'
-
 
 import { AppContext } from '../../utils/context';
 
@@ -95,9 +93,9 @@ export default function Filemanager() {
                     <div className="modal-body">
                       <h5>Are you sure you want to delete</h5>
                     </div>
-                    <div className="modal-actions" style={{"display": "flex","justify-content":" space-evenly","align-items": "center","padding":"15px"}}>
-                    <button type="button" class="btn btn-danger" onClick={handleDeleteConfirm}>Delete</button>
-                    <button type="button" class="btn btn-success" data-bs-dismiss="modal" onClick={handleDeleteCancel}>Cancel</button>
+                    <div className="modal-actions" style={{ "display": "flex", "justify-content": " space-evenly", "align-items": "center", "padding": "15px" }}>
+                      <button type="button" class="btn btn-danger" onClick={handleDeleteConfirm}>Delete</button>
+                      <button type="button" class="btn btn-success" data-bs-dismiss="modal" onClick={handleDeleteCancel}>Cancel</button>
                     </div>
                   </div>
                 </div>
@@ -132,9 +130,9 @@ export default function Filemanager() {
                           </button>
 
                         </td>
-                        
+
                       </tr>
-                      
+
                     )
                   }
                   )}

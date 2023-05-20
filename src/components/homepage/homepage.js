@@ -7,7 +7,6 @@ import Filemanager from '../../pages/filemanager/filemanager'
 
 export default function Homepage() {
   return (
-    // <div>Hompage</div>
     <div className='container homepage'>
     <Approutes/>
     <Navbar />

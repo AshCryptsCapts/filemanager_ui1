@@ -1,14 +1,9 @@
 import React from 'react'
 
 import './sidebar.css'
-// import FolderIcon from '@mui/icons-material/Folder';
 
 export default function Sidebar() {
-    // const sidebardata =[{
-    //     title:"File Manager",
-    //     icon:"<FolderIcon/>",
-    //     link:"/filemanager"
-    // }]
+
     return (
 
         <div className="container sidebar">
